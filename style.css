@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&family=Ubuntu&family=Varela+Round&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "ubuntu";
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.header{
+    background-color: #fff;
+}
+
+.container{
+    display: flex;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+}
+
+img{
+    width: 90px;
+    margin-right: 800px;
+    margin-left: 100px;
+
+}
+
+.nav{
+    display: inline-block;
+    align-items:center;
+    justify-content: center;
+    
+}
+
+.nav span{
+    font-family: 'Overpass', sans-serif;
+    margin-left: 20px;
+    font-weight: 600px;
+}
+
+.nav span:hover{
+    padding: 30px 2px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+
+.page1{
+    
+  background-image: url("https://www.tekdi.net/static/04954892ebf7f0cdbfb89e0bd062e41a/c26c2/bg-home.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+}
+
+.content1{
+    color: aliceblue;
+    padding: 250px;
+    width: 1000px;
+    font-family: 'Overpass', sans-serif;
+    font-size: 40px;
+    font-weight:lighter;
+    
+}
+
+.page2{
+    margin-top: 100px;
+    font-family: 'Overpass', sans-serif;
+    background-color: rgb(223, 223, 223);
+    
+}
+
+.page2 .digital{
+    margin-left: 300px;
+    
+}
+
+.digicontent{
+    font-size: 36px;
+    font-weight: lighter;
+    padding: 50px 0px;
+}
+
+.digip{
+    width: 450px;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 90px;
+}
+
+.crousal{
+    display: inline-block;
+    width: 100%;
+    
+}
+
+.col-1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row1-img{
+    width: 25%;
+}
+
+.row1-content{
+    margin-top:35px;
+    width:25%;
+    line-height: 28px;
+}
+
+.page3{
+    font-family: 'Overpass', sans-serif;
+    margin-bottom: 100px;
+    
+}
+
+.industries-row{
+    display: flex;
+}
+.con1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 60px;
+    font-family: 'Overpass', sans-serif;
+    color: rgb(179, 175, 175);
+    
+}
+
+.inner-item {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    background-color: #09225a;
+    color:white;
+    justify-content: space-between;
+    padding: 30px 30px 20px;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+    line-height: 26px;
+}
+#hover1-content {
+    display:none;
+}
+.inner-item :hover {
+    background-color: #007bff;
+    padding: 30px;
+}
+.inner-item :hover #hover1-content {
+    background-color: #007bff;
+    display:block;
+}
+#hover2-content {
+    display:none;
+}
+.inner-item :hover #hover2-content {
+    background-color: #007bff;
+    display:block;
+}
+#hover3-content {
+    display:none;
+}
+.inner-item :hover #hover3-content {
+    background-color: #007bff;
+    display:block;
+}
+#hover4-content {
+    display:none;
+}
+.inner-item :hover #hover4-content {
+    background-color: #007bff;
+    display:block;
+}
+
+.page4{
+    font-family: 'Overpass', sans-serif;
+}
+
+.contentbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content4-1:hover{
+    box-shadow: 0 0 30px rgba(33,33,33,.2); 
+}
+
+.content4-2:hover{
+    box-shadow: 0 0 30px rgba(33,33,33,.2); 
+}
+
+.content4-3:hover{
+    box-shadow: 0 0 30px rgba(33,33,33,.2); 
+}
+
+.content4-4:hover{
+    box-shadow: 0 0 30px rgba(33,33,33,.2); 
+}
+
+.box{
+    margin-bottom: 500px;
+    margin-left: 160px;
+    font-family: 'Overpass', sans-serif;
+
+}
+
+.divSquare1{
+    width:600px; height:400px; background-color: #007bff; float: left
+}
+
+.divSquare2{
+    width:600px; height:400px;  background-color:#09225a; float: left
+}
+
+.divSquare3{
+    width:600px; height:400px;  background-color: #17b1cf; float: left
+}
+
+.divSquare4{
+    width:600px; height:400px;  background-color: #007bff; float: left
+}
+/* #hover1-content {
+    display:none;
+}
+.inner-item:hover #hover1-content {
+    background-color: #007bff;
+    display:block;
+}
+#hover2-content {
+    display:none;
+}
+.inner-item:hover #hover2-content {
+    background-color: #007bff;
+    display:block;
+} */
+
+
+/* footer */
+.footer{
+    background-color: #09225a;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Overpass', sans-serif;
+}
+
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    line-height: 36px;
+    padding: 40px 0;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: #426c95;
+}
+
+
+
+
+
